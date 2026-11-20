@@ -1,0 +1,5 @@
+Algorithm,Average Waiting Time,Average Turnaround Time
+FCFS,4.75,8.25
+SJF,4.00,7.50
+PRIORITY,4.25,7.75
+RR,7.00,10.50

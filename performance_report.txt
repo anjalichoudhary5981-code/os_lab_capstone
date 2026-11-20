@@ -1,0 +1,6 @@
+OS Resource Manager - Performance Analysis
+
+Lowest average CPU waiting time: SJF (4.00 time units).
+Highest memory utilization: BEST (68.65%).
+Lowest disk head movement: SSTF (208 cylinders).
+Results are workload-specific; different arrival times, sizes, priorities, and request directions can change the ranking.

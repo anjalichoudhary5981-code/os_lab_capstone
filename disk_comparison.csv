@@ -1,0 +1,5 @@
+Algorithm,Total Movement Cylinders,Average Movement per Request,Service Sequence
+FCFS,642,91.71,82 170 43 140 24 16 190
+SSTF,208,29.71,43 24 16 82 140 170 190
+SCAN,332,47.43,82 140 170 190 199 43 24 16
+CSCAN,391,55.86,82 140 170 190 199 0 16 24 43

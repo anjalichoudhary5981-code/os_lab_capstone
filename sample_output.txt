@@ -1,0 +1,31 @@
+OS RESOURCE MANAGER - SAMPLE OUTPUT TRACE
+=========================================
+
+CPU FCFS sample:
+Gantt chart:
+P1[0-5] | P2[5-8] | P3[8-12] | P4[12-14]
+
+PID  AT  BT  CT  TAT  WT
+P1   0   5   5   5    0
+P2   1   3   8   7    4
+P3   2   4   12  10   6
+P4   3   2   14  11   9
+
+Average waiting time: 4.75
+Average turnaround time: 8.25
+
+Memory First Fit sample:
+Blocks: 100, 500, 200, 300, 600 KB
+Processes: 212, 417, 112, 426 KB
+P1 -> Block 2 (288 KB remains)
+P2 -> Block 5 (183 KB remains)
+P3 -> Block 2 (176 KB remains)
+P4 -> Not allocated
+
+Disk FCFS sample:
+Requests: 82,170,43,140,24,16,190
+Initial head: 50
+Service order: 82 -> 170 -> 43 -> 140 -> 24 -> 16 -> 190
+Total head movement: 642 cylinders
+
+Note: These traces are illustrative expected outputs. Run the application for the complete live output.
